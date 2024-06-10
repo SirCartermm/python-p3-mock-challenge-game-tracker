@@ -1,3 +1,4 @@
+from lib.classes.many_to_many import Game, Player
 class Result:
     def __init__(self, score, player, game):
         self.score = score
